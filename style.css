@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  color: rgb(222, 222, 222);
+  font-family: 'Roboto', sans-serif;
+}
+
+.fw-5 {
+  font-weight: 500;
+}
+
+body {
+  background-color: #1D262D;
+  margin: 0;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+header,
+footer {
+  margin: 20px 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+:root {
+  --pink: #E12079;
+}
+
+.t-pink{
+  color: #df046a;
+}
+
+.t-green{
+  color: #7CB16C;
+}
+
+.t-yellow{
+  color: #E4CD65;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.nav_img{
+  width: 10%;
+  border: 5px solid var(--pink);
+  border-radius: 50%;
+}
+
+.header_text {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.header_text>img {
+  max-width: 10%;
+}
+
+.header_buttons {
+  margin: 40px;
+}
+
+.header_buttons button:last-child,
+.email_btn {
+  background-color: transparent;
+  border: 1px solid gainsboro;
+  border-radius: 6px;
+  padding: 10px 22px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+.email_btn {
+  background-color: var(--pink);
+  margin-right: 15px;
+  border: none;
+}
+
+.email_btn a,
+.header_buttons button:last-child a{
+  text-decoration: none;
+}
+
+.header_description {
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+/* main-section */
+
+ main {
+  padding: 20px 15px;
+}
+
+.main_linear_bg {
+  background: linear-gradient(#351A95, #E12079);
+}
+
+.main_linear_div {
+  max-width: 80%;
+  margin: 35px auto;
+  padding: 50px 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project_example {
+  max-width: 80%;
+  height: 500px;
+  margin: 80px 120px;
+  border-radius: 20px;
+  background: linear-gradient(#6453af78, #6453af7b), url(./airbnb.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project_example_text {
+  max-width: 60%;
+  height: 500px;
+  padding: 20px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project_example_text p {
+  font-weight: 500;
+}
+
+.project_name{
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.project_subtitle{
+  line-height: 25px;
+  letter-spacing: 0.8px;
+  font-weight: 400;
+}
+
+.see_project_btn {
+  max-width: 22%;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ex_2{
+  background: linear-gradient(#6453afc0, #6453afb7), url(./airlab.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 80px 0  80px 160px;
+}
+
+.ex_2_text{
+  padding-bottom: 60px;
+  margin-right: 70px;
+  margin-left: auto;
+  align-items: end;
+}
+
+.ex_3{
+  background: linear-gradient(#6453afc0, #6453afb7), url(./gmail_clone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 80px 120px;
+}
+
+.ex_4{
+  background: linear-gradient(#6453af84, #6453af7b), url(./weather_app.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 80px 0 80px 160px;
+}
+
+.ex_4_text{
+  padding-bottom: 60px;
+  margin-right: 70px;
+  margin-left: auto;
+  align-items: end;
+}
+
+.ex_5{
+  background: linear-gradient(#6453af8f, #6453af93), url(./to_do.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 80px 120px;
+}
+
+.ex_5_text{
+  padding-top: 60px;
+}
+
+.course_info{
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code_example{
+  margin: 50px 100px;
+}
+
+.code_example pre{
+  line-height:5px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* footer-part */
+
+ footer{
+  display:grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_img{
+  max-width: 30%;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: white;
+}  
