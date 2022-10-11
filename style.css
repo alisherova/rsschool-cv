@@ -34,6 +34,10 @@ nav {
   --pink: #E12079;
 }
 
+.pink_color{
+  color: #E12079;
+}
+
 .t-pink{
   color: #df046a;
 }
@@ -125,6 +129,13 @@ header h1 {
 .skills {
   display: flex;
   justify-content: space-between;
+ padding-top: 30px;
+}
+
+.skill_div p{
+  font-weight: 700; 
+  font-size: 22px;  
+  margin-top: 4px;
 }
 
 .project_example {
@@ -221,6 +232,10 @@ header h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.courses{
+  margin: 100px 0;
 }
 
 .code_example{
